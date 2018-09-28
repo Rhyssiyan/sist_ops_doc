@@ -1,4 +1,4 @@
-site_name: AI集群官方文档
+site_name: AI集群运维开发文档
 
 # Repository
 repo_name: 'Rhyssiyan/sist_ops_doc'
@@ -6,15 +6,9 @@ repo_url: 'https://github.com/Rhyssiyan/sist_ops_doc'
 
 nav:
     - 首页: index.md
-      #    - 集群架构: cluster.md
-      #- 基础知识:
-      # - '集群管理': 'QA_cluster.md'
-      # - 'Linux基础': 'QA_linux.md'
-      # - '容器配置': 'QA_container.md'
-      # - '注意事项': 'QA_cautions.md'
-      #- 使用规范: moral.md
-      #- About: about.md
-
+    - 集群: cluster.md
+    - AI集群: aicluster.md
+    - 运维基础: basics.md
 theme:
   name: material
   highlightjs: true
@@ -27,7 +21,7 @@ theme:
     accent: 'red'
 
 
-dev_addr: 127.0.0.1:3333
+dev_addr: 10.19.124.11:3333
 
 
 markdown_extensions:
